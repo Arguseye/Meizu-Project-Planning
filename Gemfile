@@ -36,3 +36,9 @@ gem 'jquery-rails'
 
 # To use debugger
 # gem 'debugger'
+
+group :development do
+  gem 'capistrano'
+  gem 'capistrano-ext'
+end
+
